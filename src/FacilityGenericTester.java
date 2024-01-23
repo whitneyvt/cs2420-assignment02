@@ -1,4 +1,4 @@
-package Assignment02;
+package assign02;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -42,7 +42,7 @@ public class FacilityGenericTester {
 		return ids;
 	}
 
-	// A private helper to generate dates
+	 // A private helper to generate dates
 	private GregorianCalendar[] generateDates(int howMany) {
 		GregorianCalendar[] dates = new GregorianCalendar[howMany];
 		for (int i = 0; i < howMany; i++)

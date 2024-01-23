@@ -1,10 +1,10 @@
-package Assignment02;
+package assign02;
 
 /**
  * This class represents a UHealth patient who has a unique UHealthID
  * and a first and last name.
  *
- * @author Eric Heisler and ??
+ * @author Eric Heisler and Julianna Bracamonte and Whitney Van Tassell
  * @version May 5, 2023
  */
 public class Patient {
@@ -67,10 +67,8 @@ public class Patient {
 		if (!(other instanceof Patient))
 			return false;
 		Patient otherPatient = (Patient) other;
-		if (otherPatient.getUHealthID() == uHealthID)
-			return true;
-		return false;
-	}
+        return otherPatient.getUHealthID().equals(uHealthID);
+    }
 
 	/**
 	 * Returns a textual representation of this patient.

@@ -2,17 +2,17 @@ package assign02;
 
 import java.util.GregorianCalendar;
 
-public class CurrentPatient extends Patient
+public class CurrentPatientGeneric<Type> extends Patient
 {
-    private int physician;
+    private Type physician;
     private GregorianCalendar lastVisit;
-    public CurrentPatient(String firstName, String lastName, UHealthID uHealthID, int physician, GregorianCalendar lastVisit)
+    public CurrentPatientGeneric(String firstName, String lastName, UHealthID uHealthID, Type physician, GregorianCalendar lastVisit)
     {
         super(firstName, lastName, uHealthID);
         this.physician = physician;
         this.lastVisit = lastVisit;
     }
-    public int getPhysician()
+    public Type getPhysician()
     {
         return physician;
     }
@@ -20,7 +20,7 @@ public class CurrentPatient extends Patient
     {
         return lastVisit;
     }
-    public void updatePhysician(int newPhysician)
+    public void updatePhysician(Type newPhysician)
     {
         physician = newPhysician;
     }

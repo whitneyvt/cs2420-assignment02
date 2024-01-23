@@ -1,4 +1,4 @@
-package Assignment02;
+package assign02;
 
 /**
  * This class represents a unique UHealthID, which has a four letter

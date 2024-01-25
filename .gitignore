@@ -1,3 +1,4 @@
+.idea/*.iml
 .idea/misc.xml
 .DS_Store
 .idea/uiDesigner.xml

@@ -1,7 +1,7 @@
 .idea/misc.xml
 .DS_Store
 .idea/uiDesigner.xml
-outA
+out/
 .idea/cs2420-assignment02.iml
 
 # Compiled class file
